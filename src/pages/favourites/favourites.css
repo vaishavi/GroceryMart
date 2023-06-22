@@ -1,0 +1,109 @@
+.cost-container {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center; */
+}
+
+.page-title {
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+
+.shopName:hover .grocery-card-scroll-container {
+    display: block;
+}
+
+.cardTitle {
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.favorites-item {
+    margin: 2%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.shopName {
+    /* background: linear-gradient(90deg,
+            rgb(218, 217, 229) 0%,
+            rgb(142, 141, 219) 100%); */
+    background-color: rgb(248,
+            249,
+            250);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-top: 2%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+/* .grocery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+} */
+
+
+.grocery-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 500px;
+    margin-right: 1%;
+}
+
+.grocery-card-scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.grocery-container {
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    height: 100%;
+}
+
+.grocery-card {
+    flex: 0 0 auto;
+    /* width: 18rem;
+    height: 36rem; */
+    margin-right: 10px;
+}
+
+.grocery-card-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    align-items: center;
+    height: 100%;
+}
+
+/* .cost-container {
+    overflow: hidden;
+} */
+
+.heading {
+    margin: 2%;
+    font-size: 30px;
+    color: #161a2b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
