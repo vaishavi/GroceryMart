@@ -1,29 +1,52 @@
 # GroceryMart
 
-
+GroceryMart is a web-based application designed to assist international students and budget-conscious shoppers in finding the best grocery deals. With rising prices due to inflation, it's more important than ever to save money wherever possible. GroceryMart offers a unique solution by allowing users to compare prices from major grocery stores on a single platform.
 
 ## Project Description
 
-The purpose of this project is to address the common
-challenge faced by international students in finding the best deals
-for various products at grocery stores. With the rising prices of
-goods due to inflation, it becomes crucial to save each dollar,
-and shopping apps like XYZ often set prices higher than those
-at the store. Additionally, such apps are not ideal for shoppers
-with a monthly budget, as they incur both delivery and service
-fees. Moreover, grocery price-comparison apps are only available
-for iOS users, neglecting Android users. To address this issue,
-we propose the development of a desktop/mobile-friendly website
-that allows users to create grocery lists and displays prices offered
-by major grocery stores for the items in their list. Users can also
-favorite their preferred items, making it easier to compare prices
-and select the best grocery store to visit. This project aims to
-provide a cost-effective solution for international students and
-others facing similar challenges, thereby saving time and money
+The goal of GroceryMart is to address the challenges faced by shoppers, especially international students, in managing their grocery budgets amidst fluctuating prices and high fees associated with delivery apps. Our platform is accessible via desktop and mobile devices, making it convenient for users to create grocery lists, favorite items, and compare prices across different stores to find the best deals.
 
-### How to Install and Run the Project
+## Features
 
-Open a terminal in the VScode and go the project folder. Give npm start to start the react components.
+- **Grocery List Creation**: Users can create and manage their grocery lists.
+- **Price Comparison**: Displays real-time prices from various grocery stores.
+- **Favorites**: Allows users to save their preferred items for quicker access.
+- **Desktop and Mobile Friendly**: Accessible on all devices for ease of use.
 
-Open another terminal in the VScode and go the server folder inside the project. Give npm run dev to start the server components.
+## Technologies Used
+
+- **Frontend**: React (created with Create React App)
+- **Backend**: Node.js with Express
+- **Database**: MongoDB with Mongoose for data management
+- **Styling**: Responsive design with CSS
+
+## Setup and Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/grocerymart.git
+   cd grocerymart
+2. ## Install dependencies
+    Navigate to the project directory and install the required dependencies:
+    
+    ```bash
+    npm install
+    
+3. Set up the necessary environment variables in a .env file in the root directory:
+   MONGO_URI='your_mongodb_uri_here'
+   PORT=4000
+   
+5. Run the application
+    Start the server and the React application:
+   ```bash
+    npm start  # Start the backend server
+    cd client
+    npm start  # Start the React application
+
+## Contributing
+Contributions to GroceryMart are welcome! If you have improvements or bug fixes, please fork the repository and submit a pull request.
+
+## Authors
+- **Vaishavi Vijayakandan** - *Author* - [VaishaviV](https://github.com/vaishavi)
+
 
