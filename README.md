@@ -46,7 +46,7 @@ The goal of GroceryMart is to address the challenges faced by shoppers, especial
 ## Contributing
 Contributions to GroceryMart are welcome! If you have improvements or bug fixes, please fork the repository and submit a pull request.
 
-## Authors
+## Author
 - **Vaishavi Vijayakandan** - *Author* - [VaishaviV](https://github.com/vaishavi)
 
 
